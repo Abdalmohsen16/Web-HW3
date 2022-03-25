@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+}
+
+.nav-top {
+    background-color: rgb(0, 168, 140);
+    height: 8vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-image {
+    margin-top: 4px;
+    height: 7vh;
+    width: 3.5vw;
+    margin-left: 5px
+}
+
+.h2-title {
+    margin-left: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 32px
+}
+
+.div-logo {
+    background-color: rgb(0, 168, 140);
+    height: 8vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: black;
+}
+
+.div-products {
+    background-color: rgb(0, 168, 140);
+    height: 8vh;
+    width: 9vw;
+    margin-left: 49vw;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-products:hover{
+    background-color: rgb(0, 105, 88);
+    cursor: pointer;
+}
+
+.h2-tabs {
+    font-size: 24px;
+}
+
+.div-aboutus {
+    background-color: rgb(0, 168, 140);
+    height: 8vh;
+    width: 9vw;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-aboutus:hover {
+    background-color: rgb(0, 105, 88);
+    cursor: pointer;
+}
+
+.div-contactus {
+    background-color: rgb(0, 168, 140);
+    height: 8vh;
+    width: 9vw;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-contactus:hover {
+    background-color: rgb(0, 105, 88);
+    cursor: pointer;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 30vw;
+    background: #f1f1f1;
+    margin-left: 30%;
+  }
+  
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: rgb(9, 150, 126);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: rgb(0, 114, 95);
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cardd {
+    background-color: rgb(7, 163, 111);
+    width: 12vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5%
+}
+
+.imgcard {
+    width: 200px;
+    margin-top: -20px;
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.btncard {
+    margin-top: 10px;
+    padding: 2px 10px;
+}
+
+.cartdiv {
+    background-color: rgb(0, 168, 140);
+    height: 100vh;
+    width: 99vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 10px 10px 1px rgb(0, 126, 105),
+                inset -10px -10px 1px rgb(0, 126, 105)
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.carthead {
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    background-color:rgba(0, 73, 61, 0.411);
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.closebutton {
+    background-color: rgb(110, 0, 0);
+    height: 30%;
+    width:2.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.closebutton:hover {
+    background-color:rgb(44, 0, 0);
+}
+
+#cart-list {
+    display:flex;
+    flex-direction: column;
+}
+
+.length {
+    background-color: rgba(0, 73, 61, 0.411);
+    height: 60px;
+    width: 100%;
+    display: block;
+}
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #155736 0%,
+    #10537a 29%,
+    #5a13ff 67%,
+    #ff0000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
